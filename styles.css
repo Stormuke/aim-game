@@ -94,6 +94,13 @@ h1 {
   overflow: hidden;
 }
 
+@media screen and (max-width: 768px) {
+  .board {
+    width: 300px;
+    height: 300px;
+  }
+}
+
 .circle {
   background: linear-gradient(90deg, #16D9E3 0%, #30C7EC 47%, #46AEF7 100%);
   box-shadow: 0 0 2px #16D9E3, 0 0 10px #30C7EC;
