@@ -31,6 +31,10 @@ h1 {
   font-size: 4rem;
 }
 
+.subtitle {
+  margin: 3rem 0 0;
+}
+
 .screen {
   display: flex;
   flex-direction: column;
