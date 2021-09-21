@@ -80,3 +80,13 @@ function getRandomNumber(min, max) {
 function getRandomColor() {
     return colors[Math.floor(Math.random() * colors.length)]
 }
+
+function cheatGodMode() {
+    function godMode() {
+        const circle = document.querySelector('.circle')
+        if (circle) {
+            circle.click()
+        }
+    }
+    setInterval(godMode,40)
+}
